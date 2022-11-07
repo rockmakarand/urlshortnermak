@@ -1,7 +1,7 @@
 const express = require('express')
 const shortId = require('shortid')
 const createHttpError = require('http-errors')
-const mongoose = require('mongoose')
+require('dotenv').config()
 
 const path = require('path')
 const ShortUrl = require('./models/url.model');
